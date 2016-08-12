@@ -62,7 +62,7 @@ Second type of account we provide is advertiser account.
     <div class="col-sm-5 " style="margin: 0px 0px 0px 500px">
     <a href="<?php echo $domain_name.'/chatbot/chatbot.php'; ?>">
       <img src="<?php echo $domain_name.'/images/'; ?>/me.png"  class="img-circle" alt="Pabin R Luitel"></a>
-      <h4><b><p></p>Chairwoman </b></h4>
+      <h4><b><p></p>Chairman </b></h4>
         <h4><p>Pabin R Luitel </p></h4>
     </div>
   </div>
