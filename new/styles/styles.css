@@ -1,0 +1,356 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+*/
+html { height: 100%;
+      width: 100%; }
+
+body { height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #FFFFFF;
+    font: 13px/15px Verdana,Arial,Helvetica,sans-serif; }
+
+img { border: none;
+}
+
+table, tr, td, tr { border-collapse: collapse;
+                    vertical-align: top;
+                    text-align: left;
+                    font: 13px/15px Verdana,Arial,Helvetica,sans-serif; }
+a { color: #ff0055;
+font: Arial;
+font-size:18px;
+}
+
+#header { height: 70px;
+          text-align: right;
+          background: #000000;
+          color: #FFFFFF;
+         }
+
+
+#header h1 { padding: 1em;
+            text-align:left;
+          }
+
+.navigation_menu{
+    background: #1A446C;
+    width: 100%;
+    height: 40px;
+     }
+.navigation_menu a{
+     padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+  }
+
+.navigation_menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #4caf50;
+    height: 40px;
+}
+
+.navigation_menu li a{
+  display:block;
+  color:white;
+  text-align:center;
+  padding:6px 6px;
+  text-decoration:none;
+}
+.navigation_menu li {
+     float: left;
+    border-right: 2px solid #342522;
+    border-color: white;
+    height:40px;
+}
+
+.navigation_menu a:hover {
+background-color: #111;
+  color:white;
+  height: 40px;
+  margin: auto;
+ }
+
+.navigation_menu li a:active{
+  background: #111;
+  color:#ffffff;
+}
+
+
+#top_menu a{
+color: white;
+font-size: 13.5px;
+float: right;
+margin: 0px;
+margin-top: -20px;
+padding-top: 8px;
+padding-right: 20px;
+overflow: hidden;
+        }
+
+#top_menu ul {
+            list-style-type: none;
+            padding: 0px;
+            overflow: hidden;
+ }
+
+#site_title{
+margin-top: 15px;
+margin-left: 25px;
+margin-bottom: -10px;
+ text-align: left;
+  font-size: 25px;
+  text-decoration-color: white;
+}
+
+#login_location{
+  text-align: center;
+}
+
+#form_location{
+  padding-left: 400px;
+}
+
+#subtitle{
+  text-align: left;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+#publisherheader{
+   height: 60px;
+            text-align: center;
+            background: #E6E6E6;
+}
+
+ #publisher_top_menu a{
+ color: Black;
+ font-size: 14px;
+ float: left;
+ padding-top: 0px;
+  padding-left: 150;
+  padding-bottom: 30px;
+ overflow: hidden;
+         }
+
+ #publisher_top_menu ul {
+             list-style-type: none;
+              overflow: hidden;
+              margin:0px;
+  }
+
+  #publisher_ad_title{
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    padding-top: 15px;
+     padding-left: 5px;
+  }
+
+#earnings{
+  font-size: 24px;
+  padding-left: 190px;
+  padding-top: 10px;
+
+
+}
+
+
+#boxed {
+  font-size: 12px;
+  padding:6px;
+  background-color: white;
+  border: 1px solid black ;
+  width: 350px;
+}
+
+
+
+/* Note: IE 5 & 6 won't understand min-height */
+#main { min-height: 420px;
+        background: #EEE4B9;
+        padding: 2em;}
+
+#footer { height: 2em;
+          padding: 1em;
+          text-align: center;
+          background: #1A446C;
+          color: #D4E6F4; }
+
+#publishermain { min-height: 500px;
+                  background: #ffffff;
+                  padding: 2em;}
+
+#publisherfooter {
+
+                    text-align: center;
+                  }
+#table{
+  border: black;
+
+}
+
+#block{
+  margin-right: 170px;
+}
+
+#chat-window{
+  margin:235px 0px 0px 1115px;
+  padding-bottom: 0px;
+
+}
+
+#close_bar{
+            margin-left: 365px;
+
+}
+#container{
+    margin-left:900px;
+    margin-bottom:170px;
+    padding-bottom: 10px;
+    height:500px;
+    position: fixed;
+    bottom: 0;
+}
+.col-md-2, .col-md-10{
+    padding:0;
+}
+.panel{
+    margin-bottom: 15px;
+}
+.chat-window{
+    bottom:0;
+    position:fixed;
+    float:right;
+    margin-left:900px;
+}
+.chat-window > div > .panel{
+    border-radius: 5px 5px 0 0;
+}
+.icon_minim{
+    padding:2px 10px;
+}
+.msg_container_base{
+  background: #e5e5e5;
+  margin: 0;
+  padding: 0 10px 10px;
+  max-height:300px;
+  overflow-x:hidden;
+}
+.top-bar {
+  background: #666;
+  height: 45px;
+
+  color: white;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.msg_receive{
+    padding-left:0;
+    margin-left:0;
+}
+.msg_sent{
+    padding-bottom:20px !important;
+    margin-right:0;
+}
+.messages {
+  background: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  max-width:100%;
+}
+.messages > p {
+    font-size: 13px;
+    margin: 0 0 0.2rem 0;
+  }
+.messages > time {
+    font-size: 11px;
+    color: #ccc;
+}
+.msg_container {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+#chatbot_img {
+    display: block;
+    width: 100%;
+}
+.avatar {
+    position: relative;
+}
+.base_receive > .avatar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid #FFF;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.base_sent {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.base_sent > .avatar:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid white;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    box-shadow: 1px 1px 2px rgba(black, 0.2); // not quite perfect but close
+}
+
+.msg_sent > time{
+    float: right;
+}
+
+
+
+.msg_container_base::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar
+{
+    width: 50px;
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.btn-group.dropup{
+    position:fixed;
+    left:0px;
+    bottom:0;
+}
+
+
+
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000; }

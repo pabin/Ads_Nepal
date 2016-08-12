@@ -1,0 +1,54 @@
+
+<html>
+<head>
+<script language="Javascript">
+
+          MyBanners=new Array('banner1.jpg','banner2.jpg','banner3.jpg','banner4.jpg')
+          MyBannerLinks=new Array('http://www.vbtutor.net/','http://www.excelvbatutor.com/','http://onlinebizguide4you.com/','http://javascript-tutor.net/')
+          banner=0
+          function ShowLinks(){
+          document.location.href="http://www."+MyBannerLinks[banner]
+          }
+
+          function ShowBanners()
+          { if (document.images)
+            { banner++
+              if (banner==MyBanners.length) {
+                   banner=0}
+             document.ChangeBanner.src=MyBanners[banner]
+                 setTimeout("ShowBanners()",5000)
+              }
+           }
+</script>
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3249832-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3033628290023372",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body onload="ShowBanners()">
+<center>
+     <a href="javascript: ShowLinks()">
+         <img src="banner1.jpg" width="900" height="120" name="ChangeBanner"/></a>
+</center>
+</body>
+</html>
+                          
+
+
+            
